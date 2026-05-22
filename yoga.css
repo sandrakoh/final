@@ -88,11 +88,11 @@
       width: 80%;
       margin: 0 auto;
     }
-    nav ul{
+    ul{
       margin: 0;
       padding: .1em;
     }
-    nav li{
+    li{
       background-color: aqua;
       border-radius: 1em;
       list-style-type: none;
@@ -100,7 +100,7 @@
       margin-bottom: 1em;
       text-align: center;
     }
-    nav a{
+    a{
       padding: .8em;
       display: inline-block;
       width: 100%;
