@@ -78,7 +78,7 @@
 
 
   /* MEDIA QUERY */
-  @media screen and (min-width:200px) and (max-width:480px){
+  @media screen and (min-width:200px) and (max-width:480px) {
     header h1 {
       padding: .25em;
       text-align: center;
@@ -87,10 +87,12 @@
       font-size: 1.3em;
       width: 80%;
       margin: 0 auto;
+      width: 100%;
     }
     ul{
       margin: 0;
       padding: .1em;
+      display:inline;
     }
     li{
       background-color: aqua;
@@ -99,10 +101,44 @@
       width: 100%; 
       margin-bottom: 1em;
       text-align: center;
+      line-height: 0;
     }
     a{
       padding: .8em;
       display: inline-block;
       width: 100%;
     }
+    li a:hover{
+      padding-inline: 0;
+    }
+    .active{
+      padding-inline: 0;
+    }
+  }
+
+  @media screen and (min-width:481px) and (max-width:768px) {
+    header h1{
+      padding: .6em;
+      text-align: center;
+    }
+    nav{
+      background-color: rgb(174, 158, 8);
+      font-size: 1.4em;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    nav ul{
+      margin: 0;
+      padding: 0;
+    }
+    nav li{
+      display: inline;
+    }
+    nav a{
+      display: inline-block;
+      padding: none;
+      text-decoration: none;
+    }
+
   }
